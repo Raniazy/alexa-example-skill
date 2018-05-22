@@ -22,7 +22,7 @@
     }
   }
 
-  exports.handle = (event, context, callback) => {
+  exports.handler = (event, context, callback) => {
     try {
       assert(event.session);
       assert(event.session.application);
